@@ -17,6 +17,9 @@
 # ---------------- USER MANUAL ----------------
 
 ## IMPORTANT!
+
+### First of all move transactions.csv to Utils.Data directory
+
 ### if you are running code for the first time and have no database, uncomment database buildup section, if you need to restart the server comment that section! otherwise triggers get in conflict
 
 ### to read csv file and send it to the bronze layer, you must run the Process.Data_Process.BronzeProcess.py
