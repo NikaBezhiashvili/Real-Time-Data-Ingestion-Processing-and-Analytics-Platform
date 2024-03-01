@@ -17,10 +17,10 @@ app.include_router(gold_router)
 
 """UNCOMMENT THIS SECTION IF DATABASE DOES NOT EXISTS"""
 
-# try:
-#     database_buildup()
-# except Exception as e:
-#     print('Database already built')
+try:
+     database_buildup()
+except Exception as e:
+     print('Database already built')
 
 """Server Start"""
 
